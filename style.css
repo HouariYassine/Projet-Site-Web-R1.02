@@ -1,0 +1,140 @@
+.page-iconique{
+    min-height: 100vh;
+    background: conic-gradient(
+        from 300deg,
+        #FF0000 0%,
+        #FF7F00 20%,
+        #00FF11 40%,
+        #0077FF 60%,
+        #602BFF 80%,
+        #FF0000 100%
+    );
+    background-repeat: no-repeat;
+}
+
+.page-main{
+    min-height: 100vh;
+    background: conic-gradient(
+        from 300deg,
+        #774D2F 0%,
+        #6B4C21 33%,
+        #D3A476 65%,
+        #774D2F 100%
+    );
+    background-repeat: no-repeat;
+}
+
+body{
+}
+
+main{
+    padding : 1% 0;
+    border-radius:2vw;
+    background-color: #B5A79A;
+    margin: 2%;
+}
+
+header{
+    padding : 1%;
+    border-radius:2vw;
+    background-color: #ffffff;
+    margin: 2%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h1 {
+    flex: 1;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.head{
+  display: block;
+  width: 120px;
+  text-align:center
+}
+
+nav ul{
+    list-style-type: none;
+    justify-content: space-evenly;
+    display:flex;
+    padding: 0;
+    margin: 0;
+
+}
+
+nav li{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 130%;
+    padding: 1%;
+    position: relative;
+    
+}
+
+nav img{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    height: 100%;
+    width: 20px;
+    z-index: 2;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+}
+
+.accueil{
+    background-color: #989898;
+}
+.memes{
+    background-color: #989898;
+    
+}
+
+.iconiques{
+    background-color: #989898;
+}
+
+.ipsum{
+    background-color: #B3B2B2
+}
+
+.debuts{
+    background-color: #B3B2B2
+}
+
+.red{
+    color: #FF0000
+}
+
+main h2,main p{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.chatfixes {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.fleche-retour{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+}
