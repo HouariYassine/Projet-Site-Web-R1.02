@@ -24,20 +24,32 @@
     background-repeat: no-repeat;
 }
 
-body{
-}
-
-main{
-    padding : 1% 0;
-    border-radius:2vw;
-    background-color: #B5A79A;
-    margin: 2%;
+.page-sondage{
+    min-height: 100vh;
+    background: conic-gradient(
+        from 300deg,
+        #bdb8b8 0%,
+        #000000 33%,
+        #656565 65%,
+        #bdb8b8 100%
+    );
+    background-repeat: no-repeat;
 }
 
 header{
     padding : 1%;
     border-radius:2vw;
     background-color: #ffffff;
+    margin: 2%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-sondage{
+    padding : 1%;
+    border-radius:2vw;
+    background-color: #D9D9D9;
     margin: 2%;
     display:flex;
     justify-content: space-around;
@@ -60,6 +72,20 @@ header a {
   text-align:center
 }
 
+main{
+    padding : 1% 0;
+    border-radius:2vw;
+    background-color: #e9c7a7;
+    margin: 2%;
+}
+
+.main-sondage{
+    padding : 1% 0;
+    border-radius:2vw;
+    background-color: rgba(255, 255, 255, 100);
+    margin: 2%;
+}
+
 nav ul{
     list-style-type: none;
     justify-content: space-evenly;
@@ -75,7 +101,6 @@ nav li{
     justify-content: center;
     align-items: center;
     font-size: 130%;
-    padding: 1%;
     position: relative;
     
 }
@@ -93,6 +118,12 @@ nav img{
 nav a {
     text-decoration: none;
     color: inherit;
+    height: 100%;
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
@@ -120,7 +151,13 @@ nav a {
     color: #FF0000
 }
 
-main h2,main p{
+main h2{
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+}
+
+main p{
     margin-left: 2%;
     margin-right: 2%;
 }
@@ -137,4 +174,16 @@ main h2,main p{
     bottom: 0;
     right: 0;
     z-index: 10;
+}
+
+form p{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+form textarea{
+    width: 100%;
+    box-sizing: border-box;
 }

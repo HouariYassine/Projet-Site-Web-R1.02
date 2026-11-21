@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="stylesheet" href="style.css">
+        <title>Sondage - MiaouNet</title>
+    </head>
+    <body class="page-sondage">
+        <main class="main-sondage">
+            <header class="accueil">
+                <a class="head" href="index.html"> <img src="assets/chat.png"> MiaouNet </a>
+                <h1>Voici un sondage pour nous aider dans nos statistiques :</h1>
+                <a class="head" href=""> <img src="assets/poll.png">
+                contacter
+                </a>
+            </header>
+            <nav>
+                <ul>
+                    <li class="accueil">
+                        <a href="index.html">Accueil</a> <img src="assets/triangle2.svg">
+                    </li>
+                    <li class="debuts">
+                        <a href="">Les débuts</a> <img src="assets/triangle.svg">
+                    </li>
+                    <li class="iconiques">
+                        <a href="iconiques.html">Les plus iconiques</a> <img src="assets/triangle2.svg">
+                    </li>
+                    <li class="ipsum">
+                        <a href="">lorem ipsum</a> <img src="assets/triangle.svg">
+                    </li>
+                    <li class="memes">
+                        <a href="">Nouveaux memes</a>
+                    </li>
+                </ul>
+            </nav>
+            <form id="form" action="mailto:mathieu.hampele@etu.univ-amu.fr" method="post" enctype="text/plain">
+  <p>
+    <input id="prenom" type="text" name="prenom" placeholder="Prénom" required="required">
+    <label for="sexeHomme"><input id="sexeHomme" type="radio" name="sexe" value="homme">Homme</label>
+    <label for="nbrcat">Combien avez vous de chats <select id="nbrcat" name="nombre de chats"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5+">5+</option></select></label>
+    </p>
+    <p>
+    <input id="nom" type="text" name="nom" placeholder="Nom" required="required">
+    <label for="sexeFemme"><input id="sexeFemme" type="radio" name="sexe" value="femme">Femme</label>
+    <label for="autres_pet">Possédez vous d'autres animaux   <input type="checkbox" id="autres_pet" name="a_autres_animaux" value="autres_pet"></label>
+    
+    </p>
+    <p>
+    <textarea name="impression" rows="10" placeholder="Décrivez ce qui vous a amené sur ce site et n'hésitez pas a nous parler de vots chats ou meme de nous joindre une photo d'eux..." ></textarea>
+    </p>
+    <p class="bouton-sondage">
+    <input type="reset" value="Auto destruction">
+    <input type="file" value="Joindre un fichier">
+    <input type="submit" value="Envoyer">
+    </p> 
+
+</form>
+        </main>
+        <img src="assets/chat-sondage.webp" alt="Nyan cat" class="chatfixes">
+        <a href="#top"><img src="assets/fleche.png" alt="flèche" class="fleche-retour"></a>
+    </body>
+</html>
