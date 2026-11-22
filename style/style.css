@@ -1,0 +1,241 @@
+
+.page-iconique
+{
+	min-height: 100vh;
+	background: conic-gradient(from 300deg,#FF0000 0%,#FF7F00 20%,#00FF11 40%,#0077FF 60%,#602BFF 80%,#FF0000 100%);
+	background-repeat: no-repeat;
+}
+
+.page-main
+{
+	min-height: 100vh;
+	background: conic-gradient(from 300deg,#774D2F 0%,#6B4C21 33%,#D3A476 65%,#774D2F 100%);
+	background-repeat: no-repeat;
+}
+
+.page-sondage
+{
+	min-height: 100vh;
+	background: conic-gradient(from 300deg,#bdb8b8 0%,#000000 33%,#656565 65%,#bdb8b8 100%);
+	background-repeat: no-repeat;
+}
+
+header
+{
+	padding : 1%;
+	border-radius:2vw;
+	background-color: #ffffff;
+	margin: 2%;
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.header-sondage
+{
+	padding : 1%;
+	border-radius:2vw;
+	background-color: #D9D9D9;
+	margin: 2%;
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+header h1
+{
+	flex: 1;
+	text-align: center;
+}
+
+header a
+{
+	text-decoration: none;
+	color: inherit;
+}
+
+.head
+{
+	display: block;
+	width: 120px;
+text-align:center}
+
+body
+{
+	margin: 0%;
+	padding: 0%;
+}
+
+main
+{
+	padding : 1% 0;
+	border-radius:2vw;
+	background-color: #e9c7a7;
+	margin: 2%;
+}
+
+.main-sondage
+{
+	padding : 1% 0;
+	border-radius:2vw;
+	background-color: rgba(255, 255, 255, 100);
+	margin: 2%;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+nav ul
+{
+	list-style-type: none;
+	justify-content: space-evenly;
+	display:flex;
+	padding: 0;
+	margin: 0;
+}
+
+nav li
+{
+	flex:1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 130%;
+	position: relative;
+}
+
+nav img
+{
+	position: absolute;
+	top: 0;
+	left: 100%;
+	height: 100%;
+	width: 20px;
+	z-index: 2;
+}
+
+nav a
+{
+	text-decoration: none;
+	color: inherit;
+	height: 100%;
+	width: 100%;
+	padding: 5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.accueil
+{
+	background-color: #989898;
+}
+
+.memes
+{
+	background-color: #989898;
+}
+
+.iconiques
+{
+	background-color: #989898;
+}
+
+.ipsum
+{
+background-color: #B3B2B2}
+
+.debuts
+{
+background-color: #B3B2B2}
+
+.red
+{
+color: #FF0000}
+
+main h2
+{
+	margin-left: 2%;
+	margin-right: 2%;
+	text-align: center;
+}
+
+main p
+{
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.chatfixes
+{
+	position: sticky;
+	bottom: 0;
+	left: 0;
+	z-index: 10;
+}
+
+.fix
+{
+	position: sticky;
+	bottom: 0;
+	z-index: 10;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+form p
+{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+form textarea
+{
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.main-sondage textarea
+{
+	height: 50vh;
+}
+
+footer
+{
+	background-color: #212426;
+	color: #FFFFFF;
+	display: flex;
+	padding: 0%;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+
+footer a
+{
+	padding: 0;
+	bottom: 0;
+	color: inherit;
+}
+
+footer img
+{
+	vertical-align: middle;
+}
+
+footer pre
+{
+	text-align: end;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	margin-right: 5px;
+}
+
+.end
+{
+	margin-bottom: 0%;
+}
