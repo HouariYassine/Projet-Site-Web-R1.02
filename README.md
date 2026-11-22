@@ -2,3 +2,19 @@
 
 index.html = page d'accueil 
 iconiques.html = page sur les chats les plus iconiques
+
+
+a faire : 
+-pages manquantes, contenu des pages (texte et images)
+-video + sous titres
+-liens vers d'autres sites web
+-feuille de style js ???????
+-faire meilleure adaptation pour telephone
+-usage pertinent de balises sémantiques, convention de nommage en anglais, indentation et commentarisation du code source
+- l’accessibilité,  le  référencement,  y  compris  le  référencement  local  (avec,  par  défaut, 
+l’adresse du département informatique) et réseaux sociaux (10 %) ainsi que l’optimisation 
+avec la compression des images (1,25 %), l’utilisation des préfixes propriétaires et la 
+minification du CSS
+-le  site  Web  devra  présenter  le  plus  grand  nombre  possible  de  bonnes  pratiques 
+d’écoconception (2,5 %) ;
+-W3C
