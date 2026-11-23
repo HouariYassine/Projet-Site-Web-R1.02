@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+		<meta name="description" content="Sondage pour une étude de statistiques sur les animaux domestiques." />
+		<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.webp">
+		<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.webp">
+		<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.webp">
+		<link rel="manifest" href="site.webmanifest">
+		<link rel="stylesheet" href="style/style.css">
+		<title>Sondage - MiaouNet</title>
+	</head>
+	<body class="page-poll">
+		<main class="main-poll">
+			<header class="poll-head">
+				<a class="head" href="index.html"><img src="assets/cat_icon.webp"> MiaouNet </a>
+				<h1>Voici un sondage pour nous aider dans nos statistiques :</h1>
+				<a class="head" href=""><img src="assets/poll.webp">contacter</a>
+			</header>
+			<nav>
+				<ul>
+					<li class="home">
+						<a href="index.html">Accueil</a>
+						<img src="assets/triangle2.svg">
+					</li>
+					<li class="bibliography">
+						<a href="">Bibliographie</a>
+						<img src="assets/triangle.svg">
+					</li>
+					<li class="start">
+						<a href="start.html">Les débuts</a>
+						<img src="assets/triangle2.svg">
+					</li>
+					<li class="iconics">
+						<a href="iconics.html">Les plus iconiques</a>
+						<img src="assets/triangle.svg">
+					</li>
+					<li class="newmemes"><a href="newmemes.html">Nouveaux memes</a></li>
+				</ul>
+			</nav>
+			<form id="form" action="mailto:mathieu.hampele@etu.univ-amu.fr" method="post" enctype="text/plain">
+				<p>
+					Prenom :<input id="prenom" type="text" name="prenom" required="required">
+					<label for="sexeHomme"><input id="sexeHomme" type="radio" name="sexe" value="homme">Homme</label>
+					<label for="nbrcat">
+						Combien avez vous de chats 
+						<select id="nbrcat" name="nombre de chats">
+							<option value="0">0</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5+">5+</option>
+						</select>
+					</label>
+				</p>
+				<p>
+					Nom :<input id="nom" type="text" name="nom" required="required">
+					<label for="sexeFemme"><input id="sexeFemme" type="radio" name="sexe" value="femme">Femme</label>
+					<label for="autres_pet">Possédez vous d'autres animaux<input type="checkbox" id="autres_pet" name="a_autres_animaux" value="autres_pet"></label>
+				</p>
+				<p>
+					<textarea name="impression" rows="10" placeholder="Décrivez ce qui vous a amené sur ce site et n'hésitez pas a nous parler de vots chats" ></textarea>
+				</p>
+				<p class="bouton-sondage">
+					<input type="reset" value="Auto destruction">
+					<input type="submit" value="Envoyer">
+				</p>
+			</form>
+			<aside class="fix">
+				<img src="assets/poll-cat.webp" alt="chat">
+				<a href="#top"><img src="assets/uparrow.webp" alt="flèche" ></a>
+			</aside>
+		</main>
+		<footer>
+			<a href="https://github.com/HouariYassine/Projet-Site-Web-R1.02"><img src="assets/github_ico.webp" alt="flèche" > Github</a>
+			<a href="https://www.univ-amu.fr/"><img src="assets/amu_ico.webp" alt="flèche" >Aix-Marseille Université</a>
+			<p class="end">
+				MiaouNet - Projet universitaire réalisé dans le cadre de la SAE R1.02 par Mathieu Hampele,Yassine Houari et Noé Bedouin.
+				<address> Département Informatique - IUT d'Aix-en-Provence (Aix-Marseille Université) 413 Avenue Gaston Berger, 13625 Aix-en-Provence, France</address>
+				Les noms, images et memes de chats cités restent la propriété de leurs auteurs respectifs.
+			</p></footer>
+			</html>
+

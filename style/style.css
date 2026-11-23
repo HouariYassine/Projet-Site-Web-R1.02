@@ -1,5 +1,5 @@
 
-.page-iconique
+.page-iconic
 {
 	min-height: 100vh;
 	background: conic-gradient(from 300deg,#FF0000 0%,#FF7F00 20%,#00FF11 40%,#0077FF 60%,#602BFF 80%,#FF0000 100%);
@@ -13,10 +13,31 @@
 	background-repeat: no-repeat;
 }
 
-.page-sondage
+.page-poll
 {
 	min-height: 100vh;
 	background: conic-gradient(from 300deg,#bdb8b8 0%,#000000 33%,#656565 65%,#bdb8b8 100%);
+	background-repeat: no-repeat;
+}
+
+.page-start
+{
+	min-height: 100vh;
+	background: conic-gradient(from 300deg,#FFE100 0%,#704100 33%,#000000 65%,#FFE100 100%);
+	background-repeat: no-repeat;
+}
+
+.page-bibliography
+{
+	min-height: 100vh;
+	background: conic-gradient(from 300deg,#6800AD 0%,#FFCD87 33%,#473019 65%,#6800AD 100%);
+	background-repeat: no-repeat;
+}
+
+.page-newmemes
+{
+	min-height: 100vh;
+	background: conic-gradient(from 300deg,#FFB581 0%,#FED59B 33%,#814101 65%,#FFB581 100%);
 	background-repeat: no-repeat;
 }
 
@@ -25,17 +46,6 @@ header
 	padding : 1%;
 	border-radius:2vw;
 	background-color: #ffffff;
-	margin: 2%;
-	display:flex;
-	justify-content: space-around;
-	align-items: center;
-}
-
-.header-sondage
-{
-	padding : 1%;
-	border-radius:2vw;
-	background-color: #D9D9D9;
 	margin: 2%;
 	display:flex;
 	justify-content: space-around;
@@ -60,10 +70,23 @@ header a
 	width: 120px;
 text-align:center}
 
+.poll-head
+{
+	padding : 1%;
+	border-radius:2vw;
+	background-color: #989898;
+	margin: 2%;
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
 body
 {
-	margin: 0%;
-	padding: 0%;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 
 main
@@ -74,7 +97,7 @@ main
 	margin: 2%;
 }
 
-.main-sondage
+.main-poll
 {
 	padding : 1% 0;
 	border-radius:2vw;
@@ -127,28 +150,28 @@ nav a
 	text-align: center;
 }
 
-.accueil
+.home
 {
 	background-color: #989898;
 }
 
-.memes
-{
-	background-color: #989898;
-}
-
-.iconiques
-{
-	background-color: #989898;
-}
-
-.ipsum
+.bibliography
 {
 background-color: #B3B2B2}
 
-.debuts
+.start
 {
-background-color: #B3B2B2}
+background-color: #989898}
+
+.iconics
+{
+	background-color: #B3B2B2;
+}
+
+.newmemes
+{
+	background-color: #989898;
+}
 
 .red
 {
@@ -199,9 +222,10 @@ form textarea
 	box-sizing: border-box;
 }
 
-.main-sondage textarea
+.main-poll textarea
 {
 	height: 50vh;
+	max-width: 50vw;
 }
 
 footer
@@ -209,7 +233,8 @@ footer
 	background-color: #212426;
 	color: #FFFFFF;
 	display: flex;
-	padding: 0%;
+	padding: 0;
+	margin: 0;
 	align-items: flex-end;
 	justify-content: space-between;
 }
@@ -226,13 +251,14 @@ footer img
 	vertical-align: middle;
 }
 
-footer pre
+footer p
 {
 	text-align: end;
 	line-height: 1.5;
 	margin: 0;
 	padding: 0;
 	margin-right: 5px;
+	flex-wrap: wrap;
 }
 
 .end
