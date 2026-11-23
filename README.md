@@ -17,5 +17,5 @@ avec la compression des images (1,25 %), l’utilisation des préfixes propriét
 minification du CSS
 -le  site  Web  devra  présenter  le  plus  grand  nombre  possible  de  bonnes  pratiques 
 d’écoconception (2,5 %) ;
--W3C <br>
+-W3C 
 https://www.figma.com/site/oMHRDXta2YBCM30NTtEjPi/Maquette-FIGMA-projet-R1.02?t=7axFBt2Qk2hgYCYO-6
