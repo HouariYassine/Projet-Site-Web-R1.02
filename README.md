@@ -4,11 +4,9 @@ et bien penser a uploader son travail sur github apres avoir terminé
 
 
 a faire : 
-- pages manquantes, contenu des pages (texte et images)
+- contenu des pages (texte et images)
 - video + sous titres
 - liens vers d'autres sites web
-- feuille de style js ???????
-- faire meilleure adaptation pour telephone
 - usage pertinent de balises sémantiques, convention de nommage en anglais, indentation et commentarisation du code source
 - l’accessibilité,  le  référencement,  y  compris  le  référencement  local  (avec,  par  défaut, 
 l’adresse du département informatique) et réseaux sociaux (10 %) ainsi que l’optimisation 
