@@ -5,8 +5,9 @@
 		<meta charset="UTF-8">
 		<meta name="description" content="Sondage pour une étude de statistiques sur les animaux domestiques.">
 		<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.webp">
-		<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.webp">
-		<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.webp">
+		<link rel="icon" href="assets/favicon.ico" sizes="48x48">
+		<link rel="icon" type="image/webp" sizes="32x32" href="assets/favicon-32x32.webp">
+		<link rel="icon" type="image/webp" sizes="16x16" href="assets/favicon-16x16.webp">
 		<link rel="manifest" href="site.webmanifest">
 		<link id="pagestyle" rel="stylesheet" href="style/style.css">
 		<script src="scripts/script.js"></script>
@@ -42,13 +43,13 @@
 			</nav>
 			<form id="form" action="mailto:mathieu.hampele@etu.univ-amu.fr" method="post" enctype="text/plain">
 				<fieldset>
-					<label for="nom"> Nom : <input id="nom" type="text" name="nom" required="required"></label>
-					<label for ="prenom">Prenom : <input id="prenom" type="text" name="prenom" required="required"></label>
-					<label for="sexeHomme"><input id="sexeHomme" type="radio" name="sexe" value="homme">Homme</label>
-					<label for="sexeFemme"><input id="sexeFemme" type="radio" name="sexe" value="femme">Femme</label>
-					<label for="nbrcat">
+					<label for="last-name"> Nom : <input id="last-name" type="text" name="last_name" required="required"></label>
+					<label for="first-name">Prenom : <input id="first-name" type="text" name="first_name" required="required"></label>
+					<label for="gender-male"><input id="gender-male" type="radio" name="gender" value="homme">Homme</label>
+					<label for="gender-female"><input id="gender-female" type="radio" name="gender" value="femme">Femme</label>
+					<label for="cat-count">
 						Combien avez vous de chats
-						<select id="nbrcat" name="nombre de chats">
+						<select id="cat-count" name="cat_count">
 							<option value="0">0</option>
 							<option value="1">1</option>
 							<option value="2">2</option>
@@ -57,13 +58,13 @@
 							<option value="5+">5+</option>
 						</select>
 					</label>
-					<label for="autres_pet">Possédez vous d'autres animaux<input type="checkbox" id="autres_pet" name="a_autres_animaux" value="autres_pet"></label>
+					<label for="other-pets">Possédez vous d'autres animaux<input type="checkbox" id="other-pets" name="has_other_pets" value="autres_pet"></label>
 				</fieldset>
-				<label class="entertxt" for="user-experience">Décrivez ce qui vous a amené sur ce site et s'il vous a plu<textarea id="user-experience" name="impression" rows="10" placeholder="Vous pouvez aussi nous parler de vots chats..." ></textarea></label>
+				<label class="entertxt" for="user-experience">Décrivez ce qui vous a amené sur ce site et s'il vous a plu<textarea id="user-experience" name="feedback" rows="10" placeholder="Vous pouvez aussi nous parler de vots chats..." ></textarea></label>
 				<input type="reset" value="Auto destruction">
 				<input type="submit" value="Envoyer">
 			</form>
-			<button type="button" onclick="changerTheme()">Changer de thème</button>
+			<button type="button" onclick="changeTheme()">Changer de thème</button>
 			<aside class="fix">
 				<img src="assets/poll-cat.webp" alt="chat">
 				<a href="#top"><img src="assets/uparrow.webp" alt="flèche" ></a>
@@ -78,5 +79,6 @@
 			</address>
 			Les noms, images et memes de chats cités restent la propriété de leurs auteurs respectifs.
 		</footer>
-	</html>
+	</body>
+</html>
 

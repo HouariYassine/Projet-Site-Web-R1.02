@@ -1,15 +1,15 @@
-const feuilleSauvegardee = localStorage.getItem("stylesheet");
+const savedStylesheet = localStorage.getItem("stylesheet");
 
-if (feuilleSauvegardee) {
-    document.getElementById("pagestyle").setAttribute("href", feuilleSauvegardee);
+if (savedStylesheet) {
+    document.getElementById("pagestyle").setAttribute("href", savedStylesheet);
 }
 
-function changerTheme() {
-    const lienCss = document.getElementById("pagestyle");
-    const nouvelleFeuille = lienCss.getAttribute("href") === "/style/style.css"
-        ? "/style/style2.css"
-        : "/style/style.css";
+function changeTheme() {
+    const cssLink = document.getElementById("pagestyle");
+    const newStylesheet = cssLink.getAttribute("href") === "style/style.css"
+        ? "style/style2.css"
+        : "style/style.css";
 
-    lienCss.setAttribute("href", nouvelleFeuille);
-    localStorage.setItem("stylesheet", nouvelleFeuille);
+    cssLink.setAttribute("href", newStylesheet);
+    localStorage.setItem("stylesheet", newStylesheet);
 }
