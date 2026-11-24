@@ -1,7 +1,6 @@
 # Projet-Site-Web-R1.02
-
-index.html = page d'accueil 
-iconiques.html = page sur les chats les plus iconiques
+ATTENTION télécharger la derniere version sur github avant de mofifier pour etre sur que le travail des autres sera pris en compte
+et bien penser a uploader son travail sur github apres avoir terminé
 
 
 a faire : 
