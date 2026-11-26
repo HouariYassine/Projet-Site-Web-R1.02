@@ -5,7 +5,6 @@ et bien penser a uploader son travail sur github apres avoir terminé
 
 a faire : 
 - contenu des pages (texte et images)
-- video + sous titres
 - liens vers d'autres sites web (dans bibliographie)
 - usage pertinent de balises sémantiques, convention de nommage en anglais, indentation et commentarisation du code source
 -  ainsi que l’optimisation 
