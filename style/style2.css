@@ -297,6 +297,10 @@ fieldset label
 	gap: 10px;
 }
 
+.video-cat {
+	display: block;
+	max-height: 55vh;
+}
 
 @media (max-width: 768px) {
 	header, .poll-head, footer {
@@ -322,7 +326,7 @@ fieldset label
 	}
 
 	nav a {
-		padding: 0px;
+		padding: 10px;
 	}
 
 	nav a, fieldset, .entertxt, .main-poll textarea, input {
