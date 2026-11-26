@@ -328,7 +328,7 @@ fieldset label
 	}
 
 	nav a {
-		padding: 10px;
+		padding: 0px;
 	}
 
 	nav a, fieldset, .entertxt, .main-poll textarea, input {
