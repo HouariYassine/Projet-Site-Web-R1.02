@@ -321,6 +321,10 @@ fieldset label
 		display: none;
 	}
 
+	nav a {
+		padding: 10px;
+	}
+
 	nav a, fieldset, .entertxt, .main-poll textarea, input {
 		min-width: 0;
 		max-width: 100%;
