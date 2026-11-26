@@ -25,85 +25,30 @@
 		<link rel="icon" type="image/webp" sizes="16x16" href="assets/favicon-16x16.webp">
 		<link rel="manifest" href="site.webmanifest">
 		<link rel="canonical" href="https://mtmods.alwaysdata.net/poll.html">
-		<link id="pagestyle" rel="stylesheet" href="style/style.css">
-		<script src="scripts/script.js"></script>
-		<title>Sondage - MiaouNet</title>
-		<!-- Balisage JSON-LD généré par l'outil d'aide au balisage de données structurées de Google -->
-		<script type="application/ld+json">
-			{
-				  "@context": "http://schema.org",  "@type": "LocalBusiness",  "name": "MiaouNet",  "address": {
-					"@type": "PostalAddress","streetAddress": "413 Avenue Gaston Berger","addressLocality": "Aix-en-Provence","addressCountry": "France","postalCode": "13625"  
-				}
-				,  "url": "https://www.univ-amu.fr/"
-			}
-		</script>
-	</head>
-	<body class="page-poll">
-		<main class="main-poll">
-			<header class="poll-head">
-				<a class="head" href="index.html"><img src="assets/cat_icon.webp" alt="Logo MiaouNet, un chat noir"> MiaouNet </a>
-				<h1>Voici un sondage pour nous aider dans nos statistiques :</h1>
-				<a class="head" href=""><img src="assets/poll.webp" alt="Icône de sondage">sondage</a>
-			</header>
-			<nav>
-				<ul>
-					<li class="home">
-						<a href="index.html">Accueil</a>
-						<img src="assets/triangle2.svg" alt="">
-					</li>
-					<li class="bibliography">
-						<a href="bibliography.html">Bibliographie</a>
-						<img src="assets/triangle.svg" alt="">
-					</li>
-					<li class="start">
-						<a href="start.html">Les débuts</a>
-						<img src="assets/triangle2.svg" alt="">
-					</li>
-					<li class="iconics">
-						<a href="iconics.html">Les plus iconiques</a>
-						<img src="assets/triangle.svg" alt="">
-					</li>
-					<li class="newmemes"><a href="newmemes.html">Nouveaux memes</a></li>
-				</ul>
-			</nav>
-			<form id="form" action="mailto:mathieu.hampele@etu.univ-amu.fr" method="post" enctype="text/plain">
-				<fieldset>
-					<label for="last-name"> Nom : <input id="last-name" type="text" name="last_name" required="required"></label>
-					<label for="first-name">Prenom : <input id="first-name" type="text" name="first_name" required="required"></label>
-					<label for="gender-male"><input id="gender-male" type="radio" name="gender" value="homme">Homme</label>
-					<label for="gender-female"><input id="gender-female" type="radio" name="gender" value="femme">Femme</label>
-					<label for="cat-count">
-						Combien avez vous de chats
-						<select id="cat-count" name="cat_count">
-							<option value="0">0</option>
-							<option value="1">1</option>
-							<option value="2">2</option>
-							<option value="3">3</option>
-							<option value="4">4</option>
-							<option value="5+">5+</option>
-						</select>
-					</label>
-					<label for="other-pets">Possédez vous d'autres animaux<input type="checkbox" id="other-pets" name="has_other_pets" value="autres_pet"></label>
-				</fieldset>
-				<label class="entertxt" for="user-experience">Décrivez ce qui vous a amené sur ce site et s'il vous a plu<textarea id="user-experience" name="feedback" rows="10" placeholder="Vous pouvez aussi nous parler de vots chats..." required="required" ></textarea></label>
-				<input type="reset" value="Auto destruction">
-				<input type="submit" value="Envoyer">
-			</form>
-			<button type="button" onclick="changeTheme()">Changer de thème</button>
-			<aside class="fix">
-				<img src="assets/poll-cat.webp" alt="chat">
-				<a href="#top"><img src="assets/uparrow.webp" alt="Retour en haut de la page"></a>
-			</aside>
-		</main>
-		<footer>
-			<a href="https://github.com/HouariYassine/Projet-Site-Web-R1.02"><img src="assets/github_ico.webp" alt="Logo GitHub"> Github</a>
-			<a href="https://www.univ-amu.fr/"><img src="assets/amu_ico.webp" alt="Logo Aix-Marseille Université">Aix-Marseille Université</a>
-			MiaouNet - Projet universitaire réalisé dans le cadre de la SAE R1.02 par Mathieu Hampele,Yassine Houari et Noé Bedouin.
-			<address>
-				Département Informatique - IUT d'Aix-en-Provence (Aix-Marseille Université) 413 Avenue Gaston Berger, 13625 Aix-en-Provence, France
-			</address>
-			Les noms, images et memes de chats cités restent la propriété de leurs auteurs respectifs.
-		</footer>
-	</body>
+		<!-- l'id "pagestyle" sert au script pour changer de feuille de style (thème) --><link id="pagestyle" rel="stylesheet" href="style/style.css"><script src="scripts/script.js"></script><title>Sondage - MiaouNet</title><!-- Balisage JSON-LD généré par l'outil d'aide au balisage de données structurées de Google --><script type="application/ld+json">            {                  "@context": "http://schema.org",  "@type": "LocalBusiness",  "name": "MiaouNet",  "address": {                    "@type": "PostalAddress","streetAddress": "413 Avenue Gaston Berger","addressLocality": "Aix-en-Provence","addressCountry": "France","postalCode": "13625"                  }                ,  "url": "https://www.univ-amu.fr/"            }        </script></head><body class="page-poll"><main class="main-poll"><header class="poll-head"><a class="head" href="index.html"><img src="assets/cat_icon.webp" alt="Logo MiaouNet, un chat noir"> MiaouNet </a><h1>Voici un sondage pour nous aider dans nos statistiques :</h1><a class="head" href=""><img src="assets/poll.webp" alt="Icône de sondage">sondage</a></header><!-- menu pour aller sur les autres pages du site --><nav><ul><li class="home"><a href="index.html">Accueil</a><img src="assets/triangle2.svg" alt=""></li><li class="bibliography"><a href="bibliography.html">Bibliographie</a><img src="assets/triangle.svg" alt=""></li><li class="start"><a href="start.html">Les débuts</a><img src="assets/triangle2.svg" alt=""></li><li class="iconics"><a href="iconics.html">Les plus iconiques</a><img src="assets/triangle.svg" alt=""></li><li class="newmemes"><a href="newmemes.html">Nouveaux memes</a></li></ul></nav><!-- un seul formulaire pour tout le sondage --><form id="form" action="mailto:mathieu.hampele@etu.univ-amu.fr" method="post" enctype="text/plain"><fieldset><label for="last-name"> Nom : <input id="last-name" type="text" name="last_name" required="required"></label><label for="first-name">Prenom : <input id="first-name" type="text" name="first_name" required="required"></label><label for="gender-male"><input id="gender-male" type="radio" name="gender" value="homme">Homme</label><label for="gender-female"><input id="gender-female" type="radio" name="gender" value="femme">Femme</label><label for="cat-count">Combien avez vous de chats<select id="cat-count" name="cat_count"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5+">5+</option></select></label><label for="other-pets">Possédez vous d'autres animaux
+		<input type="checkbox" id="other-pets" name="has_other_pets" value="autres_pet">
+	</label>
+</fieldset>
+<label class="entertxt" for="user-experience">Décrivez ce qui vous a amené sur ce site et s'il vous a plu<textarea id="user-experience" name="feedback" rows="10" placeholder="Vous pouvez aussi nous parler de vots chats..." required="required" ></textarea></label>
+<input type="reset" value="Auto destruction">
+<input type="submit" value="Envoyer">
+</form>
+<!-- le bouton appelle changeTheme() qui est dans scripts/script.js -->
+<button type="button" onclick="changeTheme()">Changer de thème
+</button>
+<!-- le chat et la flèche restent en bas de l'écran grâce à position: sticky --><aside class="fix"><img src="assets/poll-cat.webp" alt="chat"><a href="#top"><img src="assets/uparrow.webp" alt="Retour en haut de la page"></a></aside></main><!-- pied de page : liens GitHub et AMU + noms de l'équipe -->
+<footer><a href="https://github.com/HouariYassine/Projet-Site-Web-R1.02">
+	<img loading="lazy" src="assets/github_ico.webp" alt="Logo GitHub">
+	 Github
+</a>
+<a href="https://www.univ-amu.fr/"><img loading="lazy" src="assets/amu_ico.webp" alt="Logo Aix-Marseille Université">Aix-Marseille Université</a>
+MiaouNet - Projet universitaire réalisé dans le cadre de la SAE R1.02 par Mathieu Hampele,Yassine Houari et Noé Bedouin.
+<!-- adresse du département, utile pour le référencement local -->
+<address>
+	Département Informatique - IUT d'Aix-en-Provence (Aix-Marseille Université) 413 Avenue Gaston Berger, 13625 Aix-en-Provence, France
+</address>
+Les noms, images et memes de chats cités restent la propriété de leurs auteurs respectifs.
+</footer>
+</body>
 </html>
 
